@@ -19,6 +19,7 @@ services:
        dockerfile: Dockerfile
     volumes:
       - ./data/mydatabase.sql:/tmp/mydatabase.sql
+      - ./data/init.sh:/tmp/init.sh
     ports:
       - "3306:3306"
     environment:
