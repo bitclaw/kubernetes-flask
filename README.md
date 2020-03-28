@@ -22,10 +22,11 @@ directory:
 ```bash
 grep -R 'sqlalchemy' # this will help you locate the python stub folder in which you will need to delete the stub
 cd ~/.PyCharm2019.3/system/python_stubs/618138258
-
 ```
 
 If this doesn't work try removing and adding back the project interpreter, see the below links for more information.
+
+And easier solution was to just set the project interpreter as the Docker one.
 
 ## Useful Pycharm Links
 
