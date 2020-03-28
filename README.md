@@ -9,5 +9,7 @@ The app we are creating here is an API to read and store quotes in a Mysql datab
 pip install virtualenvwrapper
 export WORKON_HOME=~/Envs
 mkdir -p $WORKON_HOME
-source /usr/local/bin/virtualenvwrapper.sh
+source ~/.local/bin/virtualenvwrapper.sh
+which python3
+mkvirtualenv --python=/usr/bin/python3 learnkubernetes
 ```
