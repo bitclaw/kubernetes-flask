@@ -41,6 +41,8 @@ cd ~/.PyCharm2019.3/system/python_stubs/618138258
 ## Pycharm Debug
 
 * https://intellij-support.jetbrains.com/hc/en-us/community/posts/360006874159-Pycharm-Remote-Debugger-for-Docker-Debug-inside-container-launched-from-3rd-party-library
+* https://stackoverflow.com/questions/41314328/rich-editors-in-a-docker-development-environment/41317770#41317770
+* https://stackoverflow.com/questions/41484074/pycharm-remote-debug-in-a-docker-container
 
 If this doesn't work try removing and adding back the project interpreter, see the below links for more information.
 
