@@ -10,7 +10,13 @@ WORKDIR /app
 # Add the requirements to the container then install needed packages specified in the same file
 COPY requirements.txt /app
 RUN pip install -r requirements.txt
-RUN apt-get install vim
+
+# Install vim
+RUN ["apt-get", "update"]
+RUN ["apt-get", "install", "-y", "apt-utils"]
+RUN ["apt-get", "install", "-y", "apt-file"]
+RUN ["apt-get", "update"]
+RUN ["apt-get", "install", "-y", "vim"]
 
 # Add the API file app.py then run it when the container launches
 COPY back.py /app
