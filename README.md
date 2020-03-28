@@ -39,3 +39,7 @@ And easier solution was to just set the project interpreter as the Docker one.
 
 * https://stackoverflow.com/questions/6590688/is-it-bad-to-have-my-virtualenv-directory-inside-my-git-repository
 * https://stackoverflow.com/questions/25227800/pycharm-sqlalchemy-unresolved-reference-sqlalchemy?noredirect=1&lq=1
+
+## Useful Docker Links
+
+* https://docs.docker.com/compose/compose-file/
