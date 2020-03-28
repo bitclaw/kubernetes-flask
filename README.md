@@ -40,6 +40,9 @@ cd ~/.PyCharm2019.3/system/python_stubs/618138258
 
 ## Pycharm Debug
 
+* https://intellij-support.jetbrains.com/hc/en-us/community/posts/360006965380-PyTorch-debugging-inside-local-Docker-container-with-PyCharm
+* https://pypi.org/project/pydevd-pycharm/
+* https://vinta.ws/code/remotely-debug-a-python-app-inside-a-docker-container-in-visual-studio-code.html
 * https://stackoverflow.com/questions/51575598/how-to-make-docker-compose-run-all-services-when-debuging-with-pycharm
 * https://wiki.datavisyn.io/phovea/development/workspace/pycharm-debugging
 * https://intellij-support.jetbrains.com/hc/en-us/community/posts/360006874159-Pycharm-Remote-Debugger-for-Docker-Debug-inside-container-launched-from-3rd-party-library
