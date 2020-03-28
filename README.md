@@ -1,4 +1,4 @@
-## Creating a Kubernetes-Ready Microservice Using Flask
+# Creating a Kubernetes-Ready Microservice Using Flask
 
 We are going to use Docker Compose, but if you want to test your code locally without
 containers, you can create a [virtual environment](https://packaging.python.org/guides/installing-using-pip-and-virtual-environments/).
@@ -13,3 +13,8 @@ source ~/.local/bin/virtualenvwrapper.sh
 which python3
 mkvirtualenv --python=/usr/bin/python3 learnkubernetes
 ```
+
+
+## Useful Links
+
+* https://stackoverflow.com/questions/6590688/is-it-bad-to-have-my-virtualenv-directory-inside-my-git-repository
