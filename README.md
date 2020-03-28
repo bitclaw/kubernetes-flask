@@ -14,6 +14,20 @@ which python3
 mkvirtualenv --python=/usr/bin/python3 learnkubernetes
 ```
 
+## API Test
+
+To test if our API is responding run:
+
+`curl -X Get -i http://0.0.0.0:3000/api/v1/get-quote`
+
+To test the POST request and insert a quote to the database, use:
+
+`curl -i -H "Content-Type: application/json" -X POST -d '{"quote":"To find a fault is easy; to do better may be difficult. -- Plutarch"}' http://0.0.0.0:3000/api/v1/set-quote`
+
+Health check
+
+`curl -X Get -i http://0.0.0.0:3000/healthz`
+
 ## Pycharm Troubleshooting
 
 If you get an error regarding about `Unresolved reference 'flask_sqlalchemy'`, delete stubs from the following 
@@ -23,6 +37,10 @@ directory:
 grep -R 'sqlalchemy' # this will help you locate the python stub folder in which you will need to delete the stub
 cd ~/.PyCharm2019.3/system/python_stubs/618138258
 ```
+
+## Pycharm Debug
+
+* https://intellij-support.jetbrains.com/hc/en-us/community/posts/360006874159-Pycharm-Remote-Debugger-for-Docker-Debug-inside-container-launched-from-3rd-party-library
 
 If this doesn't work try removing and adding back the project interpreter, see the below links for more information.
 
