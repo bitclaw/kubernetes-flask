@@ -1,25 +1,14 @@
 version: "3.7"
 services:
   back:
-    container_name: back
-    build:
-      context: back
-      dockerfile: Dockerfile
-    volumes:
-      - ./back/:/app
+    image: bitclaw/quotes-back:v1
     ports:
       - "3000:3000"
     networks:
       - myapp
 
   data:
-    container_name: data
-    build:
-       context: data
-       dockerfile: Dockerfile
-    volumes:
-      - ./data/mydatabase.sql:/tmp/mydatabase.sql
-      - ./data/init.sh:/tmp/init.sh
+    image: bitclaw/quotes-data:v1
     ports:
       - "3306:3306"
     environment:
