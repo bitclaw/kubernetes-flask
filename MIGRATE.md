@@ -26,3 +26,14 @@ curl -L https://github.com/kubernetes/kompose/releases/download/v1.21.0/kompose-
 chmod +x kompose
 sudo mv ./kompose /usr/local/bin/kompose
 ```
+
+For autocompletion use:
+
+```bash
+# Bash (add to .bashrc for persistence)
+source <(kompose completion bash)
+# Zsh (add to .zshrc for persistence)
+source <(kompose completion zsh)
+```
+
+See https://github.com/kubernetes/kompose for more information.
